@@ -1,6 +1,6 @@
 # Simulation_Proies_Predateurs
 
-README: Projet de Simulation d'Écosystème
+Projet de Simulation d'Écosystème
 
 Auteurs :
 
