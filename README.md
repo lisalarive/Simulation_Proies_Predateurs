@@ -4,8 +4,8 @@ Projet de Simulation d'Écosystème
 
 Auteurs :
 
-    Lisa Larive 21304884
-    Emilio Morales Herrera 21206572
+    Lisa Larive
+    Emilio Morales Herrera
 
 Objectif du Projet :
 
