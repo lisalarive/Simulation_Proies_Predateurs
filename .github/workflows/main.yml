@@ -1,0 +1,20 @@
+name: Sync to GitLab
+
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 
+
+      - name: Envoyer vers GitLab
+        run: |
+          git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/lisa.larive.22/Simulation_Proies_Predateurs.git
+          git push gitlab main --force
